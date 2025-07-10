@@ -151,6 +151,7 @@ nav ul{
     margin-left: 20px;
     font-size: 1.3em;
     text-transform: uppercase;
+    font-weight: bold;
 }
 nav a {
     text-decoration: none;
