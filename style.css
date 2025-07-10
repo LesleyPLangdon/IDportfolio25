@@ -249,7 +249,11 @@ footer {
   height: 100%;
   border: none;
 }
-
+.projectCoverImage {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
 /* .flex-item iframe {
     width: 80%;
     height: 300px;
