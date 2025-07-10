@@ -1,10 +1,11 @@
 :root {
     --blue: #0cb2af;
     --red: #e95e50;
-    --green: #a1c65d;
+    --green: #567c10;
     --ltgreen: rgba(161, 198, 93, 0.2);
     --ltyellow: rgba(250, 199, 35, 0.3);
     --purple: #936fac;
+    --shadow: #352243;
 }
 
 * {
@@ -91,7 +92,7 @@ header p {
     padding: 20px;
     width: 60vw;
     color: var(--purple);
-    text-shadow: 2px 2px 3px whitesmoke;
+    text-shadow: 2px 2px 3px var(--shadow);
 }
 /* section below header with name */
 #name {
@@ -105,13 +106,33 @@ header p {
     position: fixed;
     top: 15vh;
     z-index: 1;
+    padding: 0 1em;
+    gap: 1em;
+    flex-wrap: wrap; /* for media query fallback */
+    text-align: center;
 }
 /* name that appears inside #name section */
-h1 {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: bolder;
-    letter-spacing: 1em;
+#name h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 1em;
+  flex: 1 1 100%; /* Full width on small screens */
+}
+/* Right-aligned social links on wide screens */
+.social-links {
+  display: flex;
+  gap: 1em;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
 }
 nav {
     background-color: var(--ltgreen);
