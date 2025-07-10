@@ -227,6 +227,11 @@ footer {
     align-items: center;
     
 }
+.project-figure {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 .iframe-wrapper {
   position: relative;
   width: 80%;          /* or 100% or whatever you prefer */
