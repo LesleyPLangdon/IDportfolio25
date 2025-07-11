@@ -135,6 +135,41 @@ header p {
   font-size: 2em;
   
 }
+.icon-label {
+  font-size: .5em;
+  font-weight: bold;
+}
+.icon-switch {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  /* font-size: 1.2em; */
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-switch i {
+  display: inline;
+  transition: opacity 0.3s ease;
+}
+
+.icon-switch .icon-label {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+/* On hover, hide icon and show label */
+.icon-switch:hover i {
+  display: none;
+}
+
+.icon-switch:hover .icon-label {
+  display: inline;
+}
+
+ .menu-toggle {
+    display: none;
+  }
 nav {
     background-color: var(--ltgreen);
     color: var(--green);
