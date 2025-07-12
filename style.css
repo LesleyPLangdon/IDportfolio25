@@ -341,20 +341,25 @@ footer {
     height: auto;
     text-align: center;
 }
-/* @media (max-width: 1024px) {
-    
-    body {
-        background-color: brown;
-    }
-    nav {
-        width: 20vw;
-    }
-    body #sideBar {
-     
-        display: none !important;
-    }
-    main {
-        margin-right: 0;
-    }
-} 
-    */
+#resume h3 {
+    padding: 5px;
+   
+}
+#resume h4 {
+    padding: 0;
+    margin: 10px 0;
+     text-align: left;
+}
+#resume h5 {
+    padding: 0;
+     text-align: left;
+}
+/* #resume ul {
+    padding-top: 10px;
+} */
+#resume li {
+    text-align: left;
+}
+#resume .flex-item {
+    min-height: 2vh;
+}
