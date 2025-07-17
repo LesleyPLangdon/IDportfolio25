@@ -70,7 +70,7 @@ header {
     
 }
 header p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.5;
     padding: 0;
     width: 90vw;
@@ -111,6 +111,7 @@ header p {
     flex-wrap: wrap;
     gap: 0.5em;
     margin-bottom: 0.5em;
+    font-size: .5em;
   }
 
     nav {

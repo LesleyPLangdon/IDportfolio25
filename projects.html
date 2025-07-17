@@ -11,20 +11,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <link href="media.css" rel="stylesheet">
-        
+        <script src="https://kit.fontawesome.com/b3473adf5a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+       <header>
             <p>"to encorage, guide, and support others on their path to success"</p>
         </header>
-        <div id="name"><h1>LESLEY LANGDON</h1></DIV>
+        <div id="name"><h1>LESLEY LANGDON</h1>
+           <div class="social-links">
+  <a href="https://www.youtube.com/channel/UC59n1ynOghWQu-7lS5XhaEw" target="_blank" class="icon-switch">
+    <i class="fa-brands fa-youtube"></i>
+    <span class="icon-label">YouTube</span>
+  </a>
+  <a href="https://github.com/LesleyPLangdon" target="_blank" class="icon-switch">
+    <i class="fa-brands fa-github"></i>
+    <span class="icon-label">GitHub</span>
+  </a>
+  <a href="https://www.linkedin.com/in/lesleyplangdon/" target="_blank" class="icon-switch">
+    <i class="fa-brands fa-linkedin"></i>
+    <span class="icon-label">LinkedIn</span>
+  </a>
+</div>
+
+        </div>
         <nav class="nav">
+            <button class="menu-toggle">Menu</button>
             <ul>
                 <a href="index.html"><li>Home</li></a>
                 <a href="aboutMe.html"><li>About Me</li></a>
                 <a href="mission.html"><li>Mission Statement</li></a>
                 <a href="projects.html"><li>Projects</li></a>
-                <a href="contact.html"><li>Contact</li></a>
+                <!-- <a href="contact.html"><li>Contact</li></a> -->
                  <!-- put a download resume button on resume page  -->
                 <a href="resume.html"><li>Resume</li></a>
             </ul>
@@ -33,11 +50,11 @@
             <h2>Instructional Design Projects</h2>
             <p class="pageDescription">As an educator and instructional designer, I am passionate about creating innovative and engaging learning experiences that empower students to explore, create, and succeed. My projects blend modern tools, interactive technologies, and thoughtful andragogy to deliver lessons that resonate in today’s dynamic educational landscape.
                 </p>
-                <p class="pageDescription">Each project showcased here reflects not just the final product but the journey of thoughtful planning, design, and iteration that brought it to life. Click on any project to explore the tools, strategies, and methods I used to craft impactful learning experiences.</p>
+                <!-- <p class="pageDescription">Each project showcased here reflects not just the final product but the journey of thoughtful planning, design, and iteration that brought it to life. Click on any project to explore the tools, strategies, and methods I used to craft impactful learning experiences.</p> -->
             <div class="flex-container">
                 <section class="flex-item one">
                     <h3>AI for Business</h3>
-                    <p>This project showcases a series of six micro-learning lessons designed to introduce students to the practical applications, creative potential, and ethical considerations of artificial intelligence. Developed for diverse delivery formats, the project is tailored to engage learners with hands-on activities and collaborative tools.</p>
+                    <p>This project showcases a series of six micro-learning lessons designed to introduce learners to the practical applications, creative potential, and ethical considerations of artificial intelligence. Developed for diverse delivery formats, the project is tailored to engage learners with hands-on activities and collaborative tools.</p>
                 </section>
                 <section class="flex-item projVisual two">
                     <figure class="project-figure">
@@ -76,12 +93,12 @@
                     </section>
                     <section class="flex-item projVisual four">
                         <figure class="project-figure">
-                    
-                        <a 
-                    href="https://canvas.instructure.com/enroll/3KYYMA" ><img src="images/SmartGoalsCover.png" target="_blank" class="projectCoverImage"></a>
-                    
+                    <div class="iframe-wrapper">
+                        <iframe src="https://www.youtube.com/embed/nRs3PUCZx14?si=Dw0Rsge5XCDs6-Fv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         
-                    <figcaption>Canvas Course: For asyncronous use. </figcaption>
+                    </div>
+                        
+                    <figcaption>Canvas Course: For asyncronous use. <a href="https://canvas.instructure.com/enroll/3KYYMA" >View in Canvas</a></figcaption>
                 </figure>
                     </section>
                     
@@ -89,22 +106,22 @@
                 
             
         </main>
-        <section id="sideBar">
+         <section id="sideBar">
             <h2>My Recent Projects</h2>
             <p>These projects are works in progress and do not appear on the projects page yet.</p>
             <div class="recentProject">
-                <h3>project title</h3>
-                <iframe src="https://www.lesleylangdon.com"></iframe>
+                <h3>EdTech Tool Reviews</h3>
+                <iframe src="https://www.youtube.com/embed/-NkGOh9OVBc?si=YLfheukjFLlIK-yy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>A video presentation evaluating three Educational Technology tools. </p>
+            </div>
+            <div class="recentProject">
+                <h3>Instructional Design Ethics</h3>
+                <iframe src="https://www.youtube.com/embed/_oI7gsIRJRw?si=NY13BVNZfHfGfEXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p>Side bar content</p>
             </div>
             <div class="recentProject">
-                <h3>project title</h3>
-                <iframe src="https://www.lesleylangdon.com"></iframe>
-                <p>Side bar content</p>
-            </div>
-            <div class="recentProject">
-                <h3>project title</h3>
-                <iframe src="https://www.lesleylangdon.com"></iframe>
+                <h3>Instructional Design for Equity in Education</h3>
+                <iframe src="https://www.youtube.com/embed/QSBz062hDk0?si=Vahb4gix4ihd53z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p>Side bar content</p>
             </div>
         </section>
