@@ -225,11 +225,16 @@ main {
    
 }
 .recentProject {
-    text-align: center;
-    margin: 20px 0;
-    
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
 }
-
+.recentProject iframe {
+  width: 80%;  
+  max-width: 560px; 
+}
 footer {
     height: 10vh;
     width: 100vw;
