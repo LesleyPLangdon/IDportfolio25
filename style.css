@@ -20,12 +20,13 @@ html {
 }
 
 body {
-   display: flex;
-   flex-direction: column;
-   min-height: 100vh; 
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    background-color: var(--ltyellow);
+     display: flex;
+        flex-direction: column;
+           min-height: 100vh; 
+               overflow-x: hidden;
+                   scroll-behavior: smooth;
+                       background-color: var(--ltyellow);
+                       }
 }
 a {
     color: var(--purple);
@@ -224,14 +225,18 @@ main {
     line-height: 1em;
    
 }
-.recentProject {
-    display: flex;
+.recentProject, .storylineOneScene {
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px 0;
   text-align: center;
 }
 .recentProject iframe {
+  width: 80%;  
+  max-width: 560px; 
+}
+.storylineOneScene img {
   width: 80%;  
   max-width: 560px; 
 }
