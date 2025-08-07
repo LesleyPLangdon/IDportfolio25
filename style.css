@@ -349,7 +349,7 @@ footer {
 }
 #riseComingSoon {
   width: 50vw;
-  height: 30vh;
+  height: auto;
   object-fit: cover;
   display: block;
   margin: 2em auto;
