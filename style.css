@@ -295,6 +295,11 @@ footer {
     align-items: center;
     
 }
+.two img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
 .project-figure {
   width: 80%;
   margin: 0 auto;
