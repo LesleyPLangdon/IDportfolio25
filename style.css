@@ -327,6 +327,36 @@ footer {
     height: auto;
     object-fit: contain;
 }
+.adaptive-quiz-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.adaptive-item {
+  flex: 1 1 45%;
+  max-width: 600px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--ltgreen);
+  padding: 10px;
+  border-radius: 10px;
+}
+#riseComingSoon {
+  width: 60vw;
+  height: 30vh;
+  object-fit: cover;
+  display: block;
+  margin: 2em auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 /* .flex-item iframe {
     width: 80%;
     height: 300px;
