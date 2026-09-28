@@ -1,152 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Portfolio site for Lesley Langdon, Instructional Designer">
-        <meta name="author" content="Lesley Langdon">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lesley Langdon</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
-        <link href="media.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b3473adf5a.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-       <header>
-            <p>"to encorage, guide, and support others on their path to success"</p>
-        </header>
-        <div id="name"><h1>LESLEY LANGDON</h1>
-           <div class="social-links">
-  <a href="https://www.youtube.com/channel/UC59n1ynOghWQu-7lS5XhaEw" target="_blank" class="icon-switch">
-    <i class="fa-brands fa-youtube"></i>
-    <span class="icon-label">YouTube</span>
-  </a>
-  <a href="https://github.com/LesleyPLangdon" target="_blank" class="icon-switch">
-    <i class="fa-brands fa-github"></i>
-    <span class="icon-label">GitHub</span>
-  </a>
-  <a href="https://www.linkedin.com/in/lesleyplangdon/" target="_blank" class="icon-switch">
-    <i class="fa-brands fa-linkedin"></i>
-    <span class="icon-label">LinkedIn</span>
-  </a>
-</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articulate Storyline Projects | Lesley Langdon</title>
+  <meta name="description" content="Articulate Storyline 360 projects by Lesley Langdon: adaptive assessment templates with branching logic and variables, an interactive world map, and a gamified quiz.">
+  <meta name="author" content="Lesley Langdon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-        </div>
-        <nav class="nav">
-            <button class="menu-toggle">Menu</button>
-            <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="aboutMe.html"><li>About Me</li></a>
-                <a href="mission.html"><li>Mission Statement</li></a>
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="storyline.html"><li>Storyline Projects</li></a>
-                <a href="rise.html"><li>Rise Projects</li></a>                
-                <!-- <a href="contact.html"><li>Contact</li></a> -->
-                 <!-- put a download resume button on resume page  -->
-                <a href="resume.html"><li>Resume</li></a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="index.html">Lesley Langdon</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-sub">
+            <a href="projects.html" class="is-section">Work</a>
+            <button class="sub-toggle" type="button" aria-expanded="false" aria-controls="work-menu" aria-label="Show Work sections">
+              <svg viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M0 0l5 6 5-6z"/></svg>
+            </button>
+            <ul class="submenu" id="work-menu">
+              <li><a href="projects.html">All work</a></li>
+              <li><a href="storyline.html" aria-current="page">Storyline projects</a></li>
+              <li><a href="rise.html">Rise projects</a></li>
+              <li><a href="curriculum.html">Curriculum design</a></li>
             </ul>
-        </nav>
-        <main>
-            <h2>Articulate Storyline Projects</h2>
-            <p class="pageDescription">These projects showcase my skills in Articulate Storyline 360, a powerful tool for creating engaging, interactive eLearning experiences. From quick, single‑scene interactions to complex, multi‑layered scenarios, each example demonstrates my ability to combine instructional design principles with Storyline’s triggers, layers, variables, and custom navigation. The collection highlights how I design learning experiences that are visually polished, intuitive to use, and built to keep learners actively engaged.
-                </p>
-                <!-- <p class="pageDescription">Each project showcased here reflects not just the final product but the journey of thoughtful planning, design, and iteration that brought it to life. Click on any project to explore the tools, strategies, and methods I used to craft impactful learning experiences.</p> -->
-          
-                <div class="flex-container">
-                    <section class="flex-item three">
-                        <h3>Adaptive Assessments</h3>
-                       <p>
-                    These adaptive assessment templates, built in <strong>Articulate Storyline 360</strong>, are designed to deliver a personalized testing experience that adjusts to each learner’s demonstrated skill level. By dynamically modifying question difficulty in real time, they help keep learners challenged without overwhelming them, improve engagement, and provide richer insight into performance than fixed‑path quizzes.
-                </p>
-                <p>
-                    I developed two distinct models:
-                </p>
-                <ul>
-                    <li><strong>Set‑Level Model</strong> — Adjusts difficulty after every set of three questions, making it ideal for assessments where performance is best measured in short, grouped segments.</li>
-                    <li><strong>Question‑Level Model</strong> — Adjusts difficulty after each individual question, enabling precise evaluation of a learner’s depth of knowledge for each concept.</li>
-                </ul>
-                <p>
-                    Both templates are fully customizable, making them easy to adapt for different subjects, difficulty frameworks, and assessment needs. They demonstrate my skills in <strong>instructional design</strong>, <strong>branching logic</strong>, <strong>variable tracking</strong>, and <strong>custom player design</strong> while applying learning theories such as <strong>Bloom’s Taxonomy</strong>, <strong>mastery learning</strong>, and <strong>formative assessment</strong> principles.
-                </p>
-                </section>
-                
-                    <section class="flex-item projVisual four">
-                        <figure class="project-figure">
-                    <div class="iframe-wrapper">
-                     <iframe src="https://adaptivequizsetlevel.lesleylangdon.com" allowfullscreen></iframe>
+          </li>
+          <li><a href="aboutMe.html">About</a></li>
+          <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+          <li><a class="nav-contact" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-                         </div>
-                    <figcaption>Adjusts difficulty after each set of three questions for balanced, grouped performance evaluation.</figcaption>
-                </figure>
-                    </section>
-                    <section class="flex-item projVisual four">
-                        <figure class="project-figure">
-                    <div class="iframe-wrapper">
-                      <iframe src="https://adaptivequizquestionlevel.lesleylangdon.com" allowfullscreen></iframe>
-  
-                    </div>
-                        
-                    <figcaption>Adapts after each question to measure the depth of mastery for each concept.</figcaption>
-                </figure>
-                    </section>
-                    
-                </div>
-                  <div class="flex-container">
-                <section class="flex-item one">
-                    <h3>Service Hero - Coming Soon</h3>
-                    <p>
-                        I’m currently developing an advanced <strong>Articulate Storyline 360</strong> project that blends <strong>gamification</strong>, <strong>scenario‑based learning</strong>, and <strong>custom navigation</strong> into an immersive training experience. Learners will take on a role, make branching decisions, and earn progress toward a final goal — all while building the skills needed to succeed in real‑world situations. 
-                    </p>
-                    <p>
-                        This project will showcase complex <strong>variable logic</strong>, <strong>custom triggers</strong>, and <strong>personalized feedback</strong> to create a truly engaging, performance‑focused learning environment.
-                    </p>
-</section>
-                <section class="flex-item projVisual two">
-                    <figure class="project-figure">
-                    <div class="iframe-wrapper">
-                    <!-- <iframe src="content/index.html" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
-                <img src="images/ServiceHeroComingSoon.png">    
-                </div>
-                    <!-- <figcaption>Articulate Rise</figcaption> -->
-                </figure>
-                
-                </section>
-                <!-- <section class="flex-item projVisual two">
-                    <figure class="project-figure">
-                    <div class="iframe-wrapper">
-                    <iframe src="https://1drv.ms/p/c/347feb8218e2fc42/IQQggZ7pK3QmS5RvsrGcjHD7AS8tWD8gO8P0w-lLJZQlIZA?em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-                    </div>
-                    <figcaption>PowerPoint</figcaption>
-                </figure>
-                
-                </section> -->
-             
-                </div>
-            
-        </main>
-        <section id="sideBar">
-            <h2>Single Scene Projects</h2>
-            <p>A collection of smaller, single‑scene Articulate Storyline 360 projects that highlight specific features and interactive elements. These quick samples demonstrate how targeted design can bring engaging moments to standalone modules or be embedded seamlessly into larger courses.</p>
-            <div class="storylineOneScene">
-                <h3>Interactive World Map</h3>
-                <a href="https://interactivemap.lesleylangdon.com/" target="_blank"><img src="images/interactiveMapScreenshot.jpg" title="Interactive World Map"></a>
-                
-                <p>Explore world‑famous landmarks in this clickable interactive map built in <b>Articulate Storyline 360</b>. Designed to showcase custom navigation, layers, and visited‑state interactions.</p>
+  <main id="main">
+
+    <section class="page-intro">
+      <div class="container">
+        <p class="eyebrow"><a href="projects.html">Work</a> / Storyline</p>
+        <h1>Articulate Storyline projects</h1>
+        <p class="lead">These projects showcase my skills in Articulate Storyline 360. From quick, single&#8209;scene interactions to multi&#8209;layered assessments, each example combines instructional design principles with Storyline&rsquo;s triggers, layers, variables, and custom navigation to create learning that is visually polished, intuitive to use, and built to keep learners actively engaged.</p>
+        <ul class="jump-links" aria-label="Projects on this page">
+          <li><a href="#adaptive-assessments">Adaptive Assessments</a></li>
+          <li><a href="#interactive-map">Interactive World Map</a></li>
+          <li><a href="#pirate-treasure">Pirate Treasure</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <article class="case" id="adaptive-assessments" aria-labelledby="adaptive-assessments-title">
+        <h2 id="adaptive-assessments-title">Adaptive Assessments</h2>
+        <dl class="case-grid">
+          <dt>Audience</dt>
+          <dd>Reusable templates that can be adapted for different subjects, difficulty frameworks, and assessment needs. <!-- TODO: add the intended learner audience --><span class="todo">[TODO: add the intended learner audience]</span></dd>
+          <dt>Challenge</dt>
+          <dd>Fixed&#8209;path quizzes give every learner the same questions. I wanted assessments that keep learners challenged without overwhelming them, improve engagement, and give richer insight into performance.</dd>
+          <dt>My solution</dt>
+          <dd><p>Adaptive assessment templates that deliver a personalized testing experience, adjusting question difficulty in real time to each learner&rsquo;s demonstrated skill level. I developed two distinct models:</p>
+            <ul>
+              <li><strong>Set&#8209;Level Model</strong>: adjusts difficulty after every set of three questions, ideal when performance is best measured in short, grouped segments.</li>
+              <li><strong>Question&#8209;Level Model</strong>: adjusts difficulty after each individual question, for precise evaluation of a learner&rsquo;s depth of knowledge for each concept.</li>
+            </ul></dd>
+          <dt>Key features / skills shown</dt>
+          <dd><ul>
+              <li>Instructional design, branching logic, variable tracking, and custom player design</li>
+              <li>Applies Bloom&rsquo;s Taxonomy, mastery learning, and formative assessment principles</li>
+              <li>Fully customizable templates, easy to adapt for new subjects and difficulty frameworks</li>
+            </ul></dd>
+          <dt>Tools</dt>
+          <dd>Articulate Storyline 360</dd>
+        </dl>
+        <div class="try-it">
+          <h3>Try it</h3>
+          <div class="embed-row">
+          <figure>
+            <div class="embed">
+              <iframe src="https://adaptivequizsetlevel.lesleylangdon.com" title="Adaptive assessment, set-level model (Articulate Storyline)" loading="lazy" allowfullscreen></iframe>
             </div>
-            <div class="storylineOneScene">
-                <h3>Pirate Treasure Interaction</h3>
-                <a href="https://piratetreasure.lesleylangdon.com/" target="_blank"><img src="images/pirateTreasure.jpg" title="Pirate Treasure"></a>
-                <p>A pirate-themed quiz where a correct answer reveals a key to unlock the treasure. My first Storyline project!</p>
+            <figcaption>Set-level model: adjusts difficulty after each set of three questions for balanced, grouped performance evaluation. <a href="https://adaptivequizsetlevel.lesleylangdon.com" target="_blank" rel="noopener">Open full screen<span class="visually-hidden"> (opens in a new tab)</span></a></figcaption>
+          </figure>
+          <figure>
+            <div class="embed">
+              <iframe src="https://adaptivequizquestionlevel.lesleylangdon.com" title="Adaptive assessment, question-level model (Articulate Storyline)" loading="lazy" allowfullscreen></iframe>
             </div>
-            <!-- <div class="storylineOneScene">
-                <h3>Instructional Design for Equity in Education</h3>
-                <iframe src="https://www.youtube.com/embed/QSBz062hDk0?si=Vahb4gix4ihd53z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <p>A video presentation discussing the ways that technology can be both a bridge and a barrier to equitable educational opportunities.</p>
-            </div> -->
-        </section>
-        <footer></footer>
-        <script src="script.js"></script>
-    </body>
+            <figcaption>Question-level model: adapts after each question to measure the depth of mastery for each concept. <a href="https://adaptivequizquestionlevel.lesleylangdon.com" target="_blank" rel="noopener">Open full screen<span class="visually-hidden"> (opens in a new tab)</span></a></figcaption>
+          </figure>
+          </div>
+        </div>
+      </article>
+
+
+      <article class="case" id="interactive-map" aria-labelledby="interactive-map-title">
+        <h2 id="interactive-map-title">Interactive World Map</h2>
+        <dl class="case-grid">
+          <dt>Audience</dt>
+          <dd><!-- TODO: add the intended learner audience --><span class="todo">[TODO: add the intended learner audience]</span></dd>
+          <dt>Challenge</dt>
+          <dd><!-- TODO: add the learning problem this interaction solves --><span class="todo">[TODO: add the learning problem this interaction solves]</span></dd>
+          <dt>My solution</dt>
+          <dd>A clickable interactive map where learners explore world&#8209;famous landmarks.</dd>
+          <dt>Key features / skills shown</dt>
+          <dd>Custom navigation, layers, and visited&#8209;state interactions. <!-- TODO: add any other features or skills this shows --><span class="todo">[TODO: add any other features or skills this shows]</span></dd>
+          <dt>Tools</dt>
+          <dd>Articulate Storyline 360</dd>
+        </dl>
+        <div class="try-it">
+          <h3>Try it</h3>
+          <a href="https://interactivemap.lesleylangdon.com/" target="_blank" rel="noopener"><img class="shot" src="images/interactiveMapScreenshot.jpg" alt="Interactive World Map: a world map with location pins and the prompt &ldquo;Click a location to explore an iconic world landmark.&rdquo;" width="1264" height="714" loading="lazy"></a>
+          <p style="margin-top:0.75rem"><a href="https://interactivemap.lesleylangdon.com/" target="_blank" rel="noopener"><strong>Launch the Interactive World Map</strong><span class="visually-hidden"> (opens in a new tab)</span></a></p>
+        </div>
+      </article>
+
+
+      <article class="case" id="pirate-treasure" aria-labelledby="pirate-treasure-title">
+        <h2 id="pirate-treasure-title">Pirate Treasure Interaction</h2>
+        <dl class="case-grid">
+          <dt>Audience</dt>
+          <dd><!-- TODO: add the intended learner audience --><span class="todo">[TODO: add the intended learner audience]</span></dd>
+          <dt>Challenge</dt>
+          <dd><!-- TODO: add the learning problem this interaction solves --><span class="todo">[TODO: add the learning problem this interaction solves]</span></dd>
+          <dt>My solution</dt>
+          <dd>A pirate&#8209;themed quiz where a correct answer reveals a key to unlock the treasure. My first Storyline project!</dd>
+          <dt>Key features / skills shown</dt>
+          <dd>A correct answer is rewarded with a key that unlocks the treasure chest. <!-- TODO: add the Storyline features and skills this shows --><span class="todo">[TODO: add the Storyline features and skills this shows]</span></dd>
+          <dt>Tools</dt>
+          <dd>Articulate Storyline 360</dd>
+        </dl>
+        <div class="try-it">
+          <h3>Try it</h3>
+          <a href="https://piratetreasure.lesleylangdon.com/" target="_blank" rel="noopener"><img class="shot" src="images/pirateTreasure.jpg" alt="Pirate Treasure Interaction: a cartoon pirate island with a ship and a locked treasure chest, and the question &ldquo;Who is the most feared pirate of all time?&rdquo; with answer buttons Blackbeard and Goldarm." width="1488" height="842" loading="lazy"></a>
+          <p style="margin-top:0.75rem"><a href="https://piratetreasure.lesleylangdon.com/" target="_blank" rel="noopener"><strong>Launch the Pirate Treasure Interaction</strong><span class="visually-hidden"> (opens in a new tab)</span></a></p>
+        </div>
+      </article>
+
+
+      <aside class="note" aria-label="Coming soon">
+        <p><strong>Coming soon:</strong> an Excel training suite, including a software simulation and a branching workplace scenario in Storyline 360, and a self-paced Excel Essentials course in Rise.</p>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><strong>Lesley Langdon</strong> &middot; Instructional Designer &amp; Curriculum Developer</p>
+        <p>Email: <!-- TODO: confirm which email address to display, then replace this span with <a href="mailto:you@example.com">you@example.com</a> --><span class="todo">[TODO: confirm which email address to display]</span></p>
+        <p>Open to instructional design and curriculum roles, remote or hybrid (South Jersey / Philadelphia).</p>
+        <p><a href="contact.html">Contact me</a> &middot; <a href="Resume.pdf">Download r&eacute;sum&eacute; (PDF)</a></p>
+      </div>
+      <div>
+        <ul class="social">
+          <li><a href="https://www.linkedin.com/in/lesleyplangdon/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><span>LinkedIn</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          <li><a href="https://github.com/LesleyPLangdon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>GitHub</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          <li><a href="https://www.youtube.com/channel/UC59n1ynOghWQu-7lS5XhaEw" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg><span>YouTube</span><span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        </ul>
+        <p class="copyright">&copy; 2026 Lesley Langdon</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
